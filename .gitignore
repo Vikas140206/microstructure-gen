@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+data/microstructures.npz
+outputs/*.pt
+.ipynb_checkpoints/
+.DS_Store
