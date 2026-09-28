@@ -43,6 +43,23 @@ python src/sample.py
 Outputs (sample grids per epoch, final generated images per alloy, and
 the trained model checkpoint) are saved to `outputs/`.
 
+
+## Results
+
+Generated microstructures per alloy class after 30 epochs of training:
+
+| Fine Steel | Medium Brass | Coarse Aluminum |
+|---|---|---|
+| ![fine steel](outputs/generated_fine_steel.png) | ![medium brass](outputs/generated_medium_brass.png) | ![coarse aluminum](outputs/generated_coarse_aluminum.png) |
+
+Training progression (sample grids at increasing epochs), showing the
+model learning sharper, more grain-like structures over time:
+
+![epoch 5](outputs/samples_epoch5.png)
+![epoch 30](outputs/samples_epoch30.png)
+
+Final training loss: **10418.58** (down from 11189.75 at epoch 1).
+
 ## Project structure
 
 ```
